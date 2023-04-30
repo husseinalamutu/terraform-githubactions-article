@@ -4,10 +4,6 @@ name: Terraform AWS
 on:
   push:
     branches: main
-
-  pull_request:
-    types: [closed]
-    branches: main
     
 # setting up the access key to aws-cli
 env:
